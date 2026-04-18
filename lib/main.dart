@@ -24,16 +24,16 @@ void _seedSampleData() {
   final now = DateTime.now();
 
   final samples = [
-    Transaction(id: uuid.v4(), title: 'Monthly Salary',    amount: 85000, category: 'Salary',       isIncome: true,  date: now.subtract(const Duration(days: 20))),
-    Transaction(id: uuid.v4(), title: 'Freelance Project', amount: 15000, category: 'Freelance',     isIncome: true,  date: now.subtract(const Duration(days: 10))),
-    Transaction(id: uuid.v4(), title: 'House Rent',        amount: 18000, category: 'Housing',       isIncome: false, date: now.subtract(const Duration(days: 18))),
-    Transaction(id: uuid.v4(), title: 'Groceries',         amount: 4500,  category: 'Food',          isIncome: false, date: now.subtract(const Duration(days: 15))),
-    Transaction(id: uuid.v4(), title: 'Internet Bill',     amount: 1200,  category: 'Utilities',     isIncome: false, date: now.subtract(const Duration(days: 12))),
-    Transaction(id: uuid.v4(), title: 'Netflix',           amount: 800,   category: 'Entertainment', isIncome: false, date: now.subtract(const Duration(days: 9))),
-    Transaction(id: uuid.v4(), title: 'Taxi / Rides',      amount: 2200,  category: 'Transport',     isIncome: false, date: now.subtract(const Duration(days: 7))),
-    Transaction(id: uuid.v4(), title: 'Restaurant Dinner', amount: 1800,  category: 'Food',          isIncome: false, date: now.subtract(const Duration(days: 5))),
+    Transaction(id: uuid.v4(), title: 'ghar bata haldeko',    amount: 85000, category: 'Salary',       isIncome: true,  date: now.subtract(const Duration(days: 20))),
+    Transaction(id: uuid.v4(), title: 'whare ma', amount: 15000, category: 'Freelance',     isIncome: true,  date: now.subtract(const Duration(days: 10))),
+    Transaction(id: uuid.v4(), title: 'Kotha vada',        amount: 18000, category: 'Housing',       isIncome: false, date: now.subtract(const Duration(days: 18))),
+    Transaction(id: uuid.v4(), title: 'saman kineko',         amount: 4500,  category: 'Food',          isIncome: false, date: now.subtract(const Duration(days: 15))),
+    Transaction(id: uuid.v4(), title: 'Internet',     amount: 1200,  category: 'Utilities',     isIncome: false, date: now.subtract(const Duration(days: 12))),
+    Transaction(id: uuid.v4(), title: 'flim hereko',           amount: 800,   category: 'Entertainment', isIncome: false, date: now.subtract(const Duration(days: 9))),
+    Transaction(id: uuid.v4(), title: ' gadi vada',      amount: 2200,  category: 'Transport',     isIncome: false, date: now.subtract(const Duration(days: 7))),
+    Transaction(id: uuid.v4(), title: 'khaja kha ko', amount: 1800,  category: 'Food',          isIncome: false, date: now.subtract(const Duration(days: 5))),
     Transaction(id: uuid.v4(), title: 'Gym Membership',    amount: 2500,  category: 'Health',        isIncome: false, date: now.subtract(const Duration(days: 3))),
-    Transaction(id: uuid.v4(), title: 'Book Purchase',     amount: 650,   category: 'Education',     isIncome: false, date: now.subtract(const Duration(days: 1))),
+    Transaction(id: uuid.v4(), title: 'yestai yestai',     amount: 650,   category: 'Education',     isIncome: false, date: now.subtract(const Duration(days: 1))),
   ];
 
   for (final t in samples) {

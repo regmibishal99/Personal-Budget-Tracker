@@ -24,7 +24,6 @@ class TransactionList extends StatelessWidget {
     'Education':     Icons.school_outlined,
     'Shopping':      Icons.shopping_bag_outlined,
     'Salary':        Icons.work_outline,
-    'Freelance':     Icons.laptop_outlined,
     'Business':      Icons.business_outlined,
     'Investment':    Icons.trending_up,
     'Other':         Icons.more_horiz,
